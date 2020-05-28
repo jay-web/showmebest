@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- header section -->
     <section class="hero is-primary is-bold">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Best Movie
+            Masterpiece
             <span class="icon">
               <i class="fas fa-film"></i>
             </span>
@@ -25,7 +26,27 @@
         </div>
       </div>
     </section>
-    <div class="container"></div>
+    <!-- header section ends here -->
+    <!-- body section start here -->
+    <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div id="left-autocomplete"></div>
+            <div id="left-summary"></div>
+          </div>
+          <div class="column">
+            <div id="right-autocomplete"></div>
+            <div id="right-summary"></div>
+          </div>
+        </div>
+        <div class="column is-half notification is-primary tutorial">
+          <h1 class="title">Search for a movie on both sides</h1>
+          <p class="subtitle">We will tell you which is best!</p>
+        </div>
+    </div>
+    <!-- body section ends here -->
+    <script src="utils.js"> </script>
+    <script src="autoComplete.js"> </script>
     <script src="index.js"></script>
   </body>
 </html>

@@ -46,3 +46,28 @@ figure .image img {
   height: 50px;
   margin-right: 10px;
 }
+
+
+
+/* override bulma css   */
+
+
+.hero-body{
+  padding: 1rem 1.5rem !important;
+}
+
+.results {
+  overflow-y: visible;
+}
+
+.notification {
+  padding: 0.25rem 0.5rem 1.25rem 1.5rem !important;
+}
+
+.notification .title {
+  font-size: 1.5rem !important;
+}
+
+.margin-top{
+  margin-top: 1rem;
+}
