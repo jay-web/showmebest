@@ -91,8 +91,8 @@ const onMovieSelect = async (movie, summaryElement, side) => {
         leftSideStats.forEach((leftStat, index) => {
             let rightStat = rightSideStats[index];
 
-            let leftSideValue = leftStat.dataset.value;
-            let rightSideValue = rightStat.dataset.value;
+            let leftSideValue = parseInt(leftStat.dataset.value);
+            let rightSideValue = parseInt(rightStat.dataset.value);
 
 
             if(rightSideValue > leftSideValue){
